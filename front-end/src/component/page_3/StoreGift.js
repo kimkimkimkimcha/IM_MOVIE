@@ -8,7 +8,7 @@ import { jwtDecode } from 'jwt-decode';
 import { Cookies, useCookies } from 'react-cookie';
 
 const localHost = "http://localhost:3000/"; // 로컬
-const proHost = "http://3.36.236.149:3000/"; // 개벌
+const proHost = "http://15.165.249.229:3000/"; // 개벌
 
 let serverUrl;
 

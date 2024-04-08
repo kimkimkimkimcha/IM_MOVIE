@@ -2,7 +2,7 @@ import axios from 'axios';   // npm install axios
 
 
 const localHost = "http://localhost:8081"; // 로컬
-const proHost = "http://3.36.236.149:8081"; // 개발
+const proHost = "http://15.165.249.229:8081"; // 개발
 
 let serverUrl;
 
