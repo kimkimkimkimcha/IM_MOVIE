@@ -1,0 +1,51 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Parking{
+    height: calc(95vh - 170px);
+    margin-top: 50px;
+}
+
+.Parking .Parking_panel{
+    width: 580px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.Parking .Parking_seat_box{
+    border: 1px solid;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.Parking .Parking_seat_box h3{
+    color: white;
+}
+
+.Parking .Parking_lot{
+    display: flex;
+    justify-content: center;
+}
+
+.Parking .Parking_row{
+    display: flex;
+}
+/* 주차라인 */
+.Parking .Parking_row>li{
+    width: 35px;
+    height: 25px;
+    background-color: white;
+    display: inline-block;
+    margin: 0 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+
+.Park_checked{
+    background-color: red !important;
+}

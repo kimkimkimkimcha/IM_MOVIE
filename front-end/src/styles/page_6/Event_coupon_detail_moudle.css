@@ -1,0 +1,38 @@
+.Event_coupon_detail{
+    
+    width: 980px;
+    
+    justify-content: center;
+    
+    margin: auto;
+    margin-top: 10px;
+}
+
+
+.Event_coupon_name{
+    border-bottom: 2px solid rgba(245, 245, 245, 0.5);
+    text-align: left;
+    width: 80%;
+    margin: 10px auto;
+    padding-left: 10px;
+    
+}
+
+.Event_coupon_regDate{
+    border-bottom: 2px solid rgba(245, 245, 245, 0.5);
+    
+    width: 80%;
+    margin: 10px auto;
+    font-size: 13px;
+}
+
+.Event_coupon_content{
+    margin-top: 10px;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.saveButton{
+    background-color: black;
+    color: white;
+}

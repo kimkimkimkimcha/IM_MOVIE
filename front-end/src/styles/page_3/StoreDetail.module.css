@@ -1,0 +1,218 @@
+@charset "utf-8";
+
+.store_detail{    
+    width: 980px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
+    display: flex;
+}
+
+
+.StoreDetail_store_d{    
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 2000px;
+    /* border: 1px solid; */
+    padding-top: 30px;
+}
+
+
+.store_detail  .StoreDetail_pd_detail .pd_table .tit {
+    font-size: 28px;
+}
+
+
+.StoreDetail_table{
+    text-align: left;
+}
+
+
+
+.txt_price_wrap {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.txt_price_str {
+    font-size: 25px;
+}
+
+.StoreDetail_txt_sale{
+    color: #FF243E;
+    font-weight: bold;
+}
+
+
+
+.txt_price_str {
+    color: #FF243E;
+}
+
+.store_detail  .btn_wrap button {
+    width: 212px;
+    margin-right: 6px;
+    box-sizing: border-box;
+}
+
+
+.pd_table {
+    margin-bottom: 20px;
+}
+
+
+.store_detail  .StoreDetail_pd_detail .pd_table th, .store_detail  .StoreDetail_pd_detail .pd_table td {
+    border-bottom: 1px solid #eeeeee;
+    padding: 20px 0;
+    font-size: 15px;
+}
+
+.bx_num {
+    border: 1px solid #DDD;
+    height: 60px;
+    display: flex;
+}
+
+.txt_num {
+    align-content: center;
+    margin: auto;
+}
+
+.btn_mins{
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.btn_plus {
+    width: 60px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+
+.btn_col1 ty7 {
+    border: none;
+    cursor: pointer;
+    background-color: #fff;  
+    
+}
+/* .store_detail .pd_detail .bx_num .btn_plus, .store_detail  .pd_detail .bx_num .btn_mins {
+    padding: 0 40px;
+}
+
+.bx_num .btn_mins {
+    left: 0;
+    background-image: url();
+}
+
+.bx_num .btn_plus, .bx_num .btn_mins{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: no-repeat 50% 50%;
+    border: 0 none;
+
+    font: 0 auto;
+} */
+
+
+
+
+.tab_wrap >.tab_tit {
+    border: none;
+    border-bottom: 1px solid #eeeeee;
+    margin-bottom: 50px;
+    
+}
+
+.tab_tit {
+    border-bottom: 1px solid #CCC;
+    font-size: 15px;
+    color: #7F7F7F;
+    text-decoration: none; /* 파란색 밑줄 제거 */
+    background-color: white;
+}
+
+
+
+.StoreDetail_store_d  {
+    /* border: 1px solid #DDD; */
+    cursor: pointer;
+    background-color: #fff;
+}
+
+/* 스와이퍼 */
+
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+    color: black; /* 화살표 색상 */
+    /* 필요한 경우 다른 스타일을 추가하세요 */
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+  }
+  .append-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+  }
+  
+
+  .StoreDetail_bottom{
+    text-align: left;
+    color: #7F7F7F;
+    line-height:300%;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 150px;
+  }
+
+.StoreDetail_store_d{
+    background-color: white;
+    background: white;
+}
+
+.StoreDetail_selectedTab{
+    font-weight: bold;
+    cursor: pointer;
+    border: 3px solid #f8a4ce !important; /* Red border */
+}

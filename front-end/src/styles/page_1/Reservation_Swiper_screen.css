@@ -1,0 +1,36 @@
+.Reservation_Swiper_screen .swiper {
+  width: 600px;
+  height: 100px;
+}
+
+.Reservation_Swiper_screen .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Reservation_Swiper_screen .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.Reservation_Swiper_screen .swiper_content {
+  display: flex;
+  background-color: white;
+  width: 500px;
+}
+
+.Reservation_Swiper_screen .swiper_content li {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.Reservation_Swiper_screen .swiper-button-prev, .swiper-button-next {
+  color: red;
+}

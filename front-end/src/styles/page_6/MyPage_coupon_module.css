@@ -1,0 +1,98 @@
+.MyPage_coupon {
+    display: inline;
+}
+
+.MyPage_coupon_useable {
+    display: flex;
+    border: 1px solid;
+    position: relative;
+    height: 50px;
+
+}
+
+.MyPage_coupon_useable>.My_coupon_usesable_count {
+    border: 1px solid;
+
+}
+
+.MyPage_coupon_useable>p {
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+}
+
+.MyPage_coupon_menu {
+    display: flex;
+    border: 1px solid black;
+    right: 0;
+    background-color: whitesmoke;
+    position: relative;
+}
+
+.coupon_delete_parent {
+    margin-right: 50px;
+    border: 1px solid;
+}
+
+.coupon_delete_parent>.coupon_delete_child {
+
+    border: 1px solid;
+}
+
+.coupon_menu1 {
+    margin-right: 50px;
+    height: 100%;
+}
+
+
+.coupon_menu2 {
+    margin-right: 100px;
+    height: 100%;
+}
+
+.couponRegButton {
+    position: absolute;
+    right: 0%;
+}
+
+.coupon_detail_table>tr {
+    border-bottom: 1px solid rgb(145, 145, 145);
+}
+
+
+.coupon_detail_detail1:hover+.coupon_detail_detail_detail {
+    display: table-row;
+}
+
+.innerTable {
+    margin: 0 auto;
+    width: 500px;
+    height: 100px;
+    
+    
+    font-weight: bold;
+    /* 가운데 정렬을 위해 margin을 사용합니다. */
+}
+
+.innerTable >tr {
+    border-bottom: 1px solid rgb(153, 153, 153);
+    /* 가운데 정렬을 위해 margin을 사용합니다. */
+}
+
+.coupon_delete_child{
+    border-radius: 3px;
+    border: 0;
+    background-color: brown;
+    color: white;
+    width: 50px;
+}
+
+.consult_list{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.consult_list tr{
+    height: 50px;
+    border-bottom: 1px solid #eee;
+}
