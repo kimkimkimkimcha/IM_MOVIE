@@ -14,7 +14,7 @@ import { withRouter } from 'react-router-dom';
 
 
 const localHost = "http://localhost:3000/"; // 로컬
-const proHost = "http://3.39.155.236:3000/"; // 개벌
+const proHost = "http://3.36.236.149:3000/"; // 개벌
 
 let serverUrl;
 

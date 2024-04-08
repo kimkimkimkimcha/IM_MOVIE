@@ -42,6 +42,6 @@ public class OAuth2SuccessHandler  extends SimpleUrlAuthenticationSuccessHandler
 		
         //response.sendRedirect(redirectUrl + "/auth/oauth-response/" + token + "/3600");
         response.sendRedirect("http://localhost:3000/auth/oauth-response/" + token + "/3600");
-        // response.sendRedirect("http://3.39.155.236:3000/auth/oauth-response/" + token + "/3600");
+        // response.sendRedirect("http://3.36.236.149:3000/auth/oauth-response/" + token + "/3600");
 	}
 }
